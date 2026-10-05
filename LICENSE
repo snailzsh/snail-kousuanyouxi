@@ -1,6 +1,7 @@
 MIT License
 
 Copyright (c) 2026 gear_machine
+Copyright (c) 2026 口算嘉年华 contributors (Chinese localization and red panda mascot)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,36 +23,25 @@ SOFTWARE.
 
 --------------------------------------------------------------------------------
 
-Exceptions to the MIT License
+Notes
 
-1. Character and logo (non-commercial fan works permitted)
+1. Origin
 
-   The MIT License above does NOT apply to the mascot character "Dopakichi"
-   (ドパキチ) or to the "Dopa Drill" (ドパドリル) name and logo, including their
-   designs, shapes and likenesses as drawn in app/js/dopakichi.js,
-   docs/dopakichi.svg, app/icon.svg and the logo in app/index.html
-   (the "Characters"). Copyright (c) 2026 gear_machine.
+   This project is an unofficial derivative of "Dopa Drill" by gear_machine
+   (https://github.com/grmchn/dopa-drill), used under the MIT License above.
+   It is not affiliated with or endorsed by the original author.
 
-   You may, without asking, use the Characters for non-commercial purposes,
-   including fan art, fan fiction, illustrations, animations, videos, social
-   media posts, and non-commercial forks or modified versions of this game.
+   The original mascot "Dopakichi" and the "Dopa Drill" name are not included.
+   The red panda mascot, its shapes in app/js/dopakichi.js and app/icon.svg,
+   are original to this project.
 
-   The following are not permitted without prior permission:
-   - commercial use, such as selling goods, artworks or products featuring
-     the Characters, or using them in paid products, services or advertising;
-   - using the Characters as the name, mascot or branding of another product
-     or service, or presenting your work as official;
-   - uses that are offensive, defamatory, or that harm the reputation of the
-     Characters or of this project.
-
-   Gameplay videos and live streams of this game are permitted, including on
-   platforms where the creator receives advertising or tipping revenue.
-
-   When a fan work or fork is published, please make clear that it is
-   unofficial. A Japanese summary of these terms is in README.md; if the two
-   differ, this English text prevails.
+   TODO before any commercial release: the title logo layout in app/index.html
+   (burst + ribbon) still follows the original game's logo design, which the
+   original author excludes from the MIT License. Replace it with an original
+   logo before commercial use.
 
 2. Fonts
 
-   The fonts in app/fonts/ (Dela Gothic One, Zen Maru Gothic) are licensed under
-   the SIL Open Font License 1.1. See the OFL-*.txt files in that directory.
+   The fonts in app/fonts/ (Dela Gothic One, Zen Maru Gothic, ZCOOL QingKe
+   HuangYou, Noto Sans SC) are licensed under the SIL Open Font License 1.1.
+   See the OFL-*.txt files in that directory.

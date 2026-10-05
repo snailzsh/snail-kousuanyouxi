@@ -2,6 +2,9 @@
 @font-face { font-family: "Zen Maru Gothic"; src: url("fonts/zen-maru-gothic-bold.woff2") format("woff2"); font-weight: 700; font-display: block; }
 @font-face { font-family: "Zen Maru Gothic"; src: url("fonts/zen-maru-gothic-black.woff2") format("woff2"); font-weight: 900; font-display: block; }
 
+@font-face { font-family: "ZCOOL QingKe HuangYou"; src: url("fonts/zcool-qingke.woff2") format("woff2"); font-display: block; }
+@font-face { font-family: "Noto Sans SC"; src: url("fonts/noto-sans-sc-bold.woff2") format("woff2"); font-weight: 700; font-display: block; }
+@font-face { font-family: "Noto Sans SC"; src: url("fonts/noto-sans-sc-black.woff2") format("woff2"); font-weight: 900; font-display: block; }
 :root {
   --ink: #1b1d4d;
   --paper: #fff8ec;
@@ -15,8 +18,8 @@
   --red: #ff4f6d;
   --E: 0;
   --kick: 0;
-  --round: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", "Yu Gothic", sans-serif;
-  --chunky: "Dela Gothic One", "Zen Maru Gothic", sans-serif;
+  --round: "Zen Maru Gothic", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --chunky: "Dela Gothic One", "ZCOOL QingKe HuangYou", "Noto Sans SC", "PingFang SC", sans-serif;
   color-scheme: light;
 }
 
