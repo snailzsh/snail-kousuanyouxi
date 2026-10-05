@@ -2486,6 +2486,8 @@ $('#volume').addEventListener('input', (e) => { audio.unlock(); const v = e.targ
 $('#motion').addEventListener('input', (e) => { const v = e.target.value / 100; setMotion(v); motionSliderFx(v); });
 $('#motion').addEventListener('change', () => { S.previewE = 0.04 + 0.3 * S.motion; });
 $('#mute').addEventListener('click', () => setMuted(!S.muted));
+// Phones have no Escape key: the back button asks the same question.
+$('#quit').addEventListener('click', () => { if (!S.demo && !S.confirm) askToTitle(); });
 $('#go-extra').addEventListener('click', startExtra);
 $('#go-title').addEventListener('click', toTitle);
 $('#go-again').addEventListener('click', () => startGame(S.kind, S.kindArg));

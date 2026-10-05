@@ -159,6 +159,7 @@ body.reduced .logo *, body.reduced .logo-burst { animation: none !important; }
 /* ------------------------------------------------------------ play */
 #screen-play { flex-direction: column; padding: 8px 0 calc(10px + env(safe-area-inset-bottom)); }
 .hud { display: flex; align-items: center; gap: 10px; height: 40px; padding: 0 14px; }
+.icon-btn.quit-btn { flex: none; font-size: 26px; line-height: 1; padding-bottom: 3px; }
 .pips { display: flex; flex-wrap: wrap; gap: 4px; flex: 1; align-items: center; }
 .pip { width: 14px; height: 14px; border-radius: 50%; border: 2.5px solid var(--ink); background: #fff; }
 .pips.many .pip { width: 11px; height: 11px; border-width: 2px; }
